@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "81d341e1-1b80-482f-9eb7-d18201205366",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCampos",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "('\"Fêmea_00_a_06\";\"Macho_00_a_06\"')"
+}

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "6ce53b74-ed11-403c-82ef-b3485661a599",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome8",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "13 ou +13 Macho"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "da62c9d0-eea7-43ac-9754-4f882239c48f",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "#276e27",
+        "index": 3
+      },
+      "sheetTitleGradientColor": {
+        "color": "#46c646",
+        "index": 2
+      },
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/dc4c7b38-219a-4b22-992f-fe859bab4a8a/logo-iagro(1).png"
+        }
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "card"
+    },
+    "qChildren": []
+  }
+]

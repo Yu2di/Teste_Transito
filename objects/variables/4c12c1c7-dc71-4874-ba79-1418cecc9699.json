@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "4c12c1c7-dc71-4874-ba79-1418cecc9699",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome13",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "37 ou +37 Fêmea"
+}

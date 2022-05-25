@@ -1,0 +1,16 @@
+{
+  "qInfo": {
+    "qId": "f14cd27c-e0dd-4e7f-b0d1-e8d55de4704c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vDimensao",
+  "qComment": "Municipio",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "[Fronteira.Origem Nome do Estabelecimento]",
+  "tags": []
+}

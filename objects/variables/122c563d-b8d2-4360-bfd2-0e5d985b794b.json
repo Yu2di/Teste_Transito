@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "122c563d-b8d2-4360-bfd2-0e5d985b794b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome_13",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Fêmea_37_ou_Mais"
+}

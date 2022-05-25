@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d0434bbf-c1ff-483c-896b-e363ed62235a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome14",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "37 ou +37 Macho"
+}

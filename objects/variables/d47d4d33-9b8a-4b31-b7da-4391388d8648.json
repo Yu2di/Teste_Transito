@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d47d4d33-9b8a-4b31-b7da-4391388d8648",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome_11",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Fêmea_25_a_36"
+}

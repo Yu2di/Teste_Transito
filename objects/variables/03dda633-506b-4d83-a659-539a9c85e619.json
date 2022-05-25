@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "03dda633-506b-4d83-a659-539a9c85e619",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome11",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "25 a 36 Fêmea"
+}

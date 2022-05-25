@@ -1,0 +1,55 @@
+///$tab Saldos
+SaldoGeral:
+LOAD
+    SaldoGeralID,
+    DataSaldo,
+    DiaSaldo,
+    MesSaldo,
+    AnoSaldo,
+    FichaSanitariaID			as FichaSanitariaID,
+    Bovino,
+    Bubalino,
+    Ovino,
+    Caprino,
+    Suino,
+    Equino,
+    Asinino,
+    Muar,
+    Aves,
+    Peixes,
+    Abelha,
+    Total
+FROM [lib://PASTA (fazenda_rpedra)/Transformados/Saldos/SaldoGeral.qvd]
+(qvd);
+
+
+SaldoBovideos:
+LOAD
+    SaldoBovideos.SaldoBovideosID,
+    SaldoBovideos.DataSaldo,
+    SaldoBovideos.OrigemDestinoID,
+    SaldoBovideos.FichaSanitariaID		,
+    SaldoBovideos.DiaSaldo,
+    "SaldoBovideos.IE/CPF/CNPJ"				as "Origem IE/CPF/CNPJ do Estabelecimento",
+    SaldoBovideos.ProdutoID,
+    SaldoBovideos.Produto,
+    SaldoBovideos.Femea0a12,
+    SaldoBovideos.Femea13a24,
+    SaldoBovideos.Femea25a36,
+    SaldoBovideos.FemeaAcima36,
+    SaldoBovideos.Macho0a12,
+    SaldoBovideos.Macho13a24,
+    SaldoBovideos.Macho25a36,
+    SaldoBovideos.MachoAcima36,
+    SaldoBovideos.SaldoConfirmado,
+    SaldoBovideos.SaldoAConfirmar,
+    SaldoBovideos.SaldoTotal,
+    SaldoBovideos.SaldoIdentificado,
+    SaldoBovideos.Femea0a12VacBrucelose,
+    SaldoBovideos.Entrada,
+    SaldoBovideos.Saida,
+    SaldoBovideos.SaldoARetornar,
+    SaldoBovideos.Femea0a12AtestadoBrucelose,
+    SaldoBovideos.Femea0a12Nascidas6Meses
+FROM [lib://PASTA (fazenda_rpedra)/Transformados/Saldos/SaldoBovideos.qvd]
+(qvd);

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "50d67bf6-0f22-43f3-8668-4a817e456839",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome_10",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Macho_13_a_24"
+}

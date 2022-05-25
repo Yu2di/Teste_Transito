@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "1688660d-2cf6-4515-a673-f140832c641d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome5",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "06 ou +06 Fêmea"
+}

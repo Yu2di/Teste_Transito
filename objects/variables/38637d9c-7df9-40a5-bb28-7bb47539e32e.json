@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "38637d9c-7df9-40a5-bb28-7bb47539e32e",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "campo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "\"Fêmea_00_a_06\""
+}

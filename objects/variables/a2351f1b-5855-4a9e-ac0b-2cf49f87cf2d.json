@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "a2351f1b-5855-4a9e-ac0b-2cf49f87cf2d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "numTables",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "10"
+}

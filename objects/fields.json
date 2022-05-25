@@ -1,0 +1,2804 @@
+[
+  {
+    "qName": "Abelha",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "AcessoMercadoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "AcessoMercadoNome",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "Ano",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Datas"
+    ]
+  },
+  {
+    "qName": "AnoSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "AreaAtuacaoNucleoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "AreaAtuacaoNucleoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "AreaTotal",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Asinino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Aves",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Bovino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Bubalino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "CapacidadeAlojamento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "Caprino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "CaracteristicaNucleoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "CaracteristicaNucleoNome",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "CargoIDPessoaEmitente",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "CargoNomePessoaEmitente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Cidade de Destino",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$wgs84",
+      "$geopoint"
+    ],
+    "qSrcTables": [
+      "KML_Destino"
+    ]
+  },
+  {
+    "qName": "Cidade de Origem",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$wgs84",
+      "$geopoint"
+    ],
+    "qSrcTables": [
+      "KML_Origem"
+    ]
+  },
+  {
+    "qName": "ClassificacaoNucleoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ClassificacaoNucleoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "Código da GTA",
+    "qTags": [],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Código de Barras Digitalização",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Código de Barras Ministério",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DDD",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Data Cancelamento",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Data Emissão",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "GTADTA",
+      "Datas"
+    ]
+  },
+  {
+    "qName": "DataALteracao",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DataAlteracao",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "DataAtivacao",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "DataCadastro",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "DataCancelamento",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DataSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "DataUltimaAtualizacao",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "DataValidadeRegistro",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "DestinatarioID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DestinatarioIECPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DestinatarioMunicipioID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DestinatarioMunicipioNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DestinatarioNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DestinatarioUFMunicipio",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino CPF/CNPJ da Pessoa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Data Início do Evento",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Data Término do Evento",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Data de Validade do Registrog",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Aglomeração",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Aglomeração Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Classificação do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Integradora do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Região de Maior Risco",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Tipo Propriedade",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID Tipo de Serviço de Inspeção",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID ZAV",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID da Pessoa Promotor do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID da Propriedade Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID da Região",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID de Acesso ao Mercado",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Colaborador do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Local do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Município",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$geoname",
+      "$key"
+    ],
+    "qSrcTables": [
+      "GTADTA",
+      "KML_Destino"
+    ]
+  },
+  {
+    "qName": "Destino ID do Município do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Nome Pessoa Promotor Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Nome do Colaborador do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Produto Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ID do Tipo de Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino IE/CPF/CNPJ Integradora do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino IE/CPF/CNPJ da Propriedade Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino IE/CPF/CNPJ do Estabelecimento",
+    "qTags": [],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome Classificação do Núcleo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome Destino",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome Tipo de Propriedade",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome da Integradora do Núcleo",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome da Pessoa",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome da Propriedade Núcleo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome da Região",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome de Acesso ao Mercado",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome de Serviço de Inspeção",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Estabelecimento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Local do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Município do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Produto Núcleo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Nome do Tipo de Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Numero de Registro Núcleo",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Número da Certificação",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino Quantidade de Galpôes do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino UF do Município",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino UF do Município do Evento",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino ZAV Nome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Destino_Nome_do_Município",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "DiaSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Equino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Espécie",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "EstabelecimentoCPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "EstabelecimentoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "EstabelecimentoRazaoSocial",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "EstabelecimentoTipo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "FichaSanitariaID",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Nucleo",
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "FichaSanitariaNucleoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "FichaSantiriaIECPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino CPF/CNPJ da Pessoa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino ID Região de Maior Risco",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino ID ZAV",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino ID da Região",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino ID do Município",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino IE/CPF/CNPJ do Estabelecimento",
+    "qTags": [],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino Nome da Pessoa",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino Nome da Região",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino Nome do Estabelecimento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino Número da Certificação",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino UF do Município",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino ZAV Nome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Destino_Nome_do_Município",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem CPF/CNPJ da Pessoa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem ID do Município",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem IE/CPF/CNPJ do Estabelecimento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem Nome da Pessoa",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem Nome do Estabelecimento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem UF do Município",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.Origem_Nome_do_Município",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "Fronteira.TabelaFronteira",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fronteira"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.ApresentacaoComercialCodigo",
+    "qTags": [],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.ApresentacaoComercialDescricao",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.ApresentacaoComercialID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.CodigoPGA",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.GTADTAItemID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.NomeProduto",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.NomeProdutoComercial",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.OrdemEvolucao",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.ProdutoComercialID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.ProdutoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.Quantidade",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.TipoSexoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GTADTAItem.TipoSexoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "GtaID",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "GTADTA",
+      "Fronteira",
+      "GTADTAItem"
+    ]
+  },
+  {
+    "qName": "Hora Emissão",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Horário Cancelamento",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Horário Emissão",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "ID da Finalidade",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "ID do Grupo do Produto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "IDNaPGA",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Latitude",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LatitudeGrau",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LatitudeMinuto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LatitudeSegundo",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Longitude",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LongitudeGrau",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LongitudeMinuto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "LongitudeSegundo",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "MaiorRisco",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "MatriculaPessoaEmitente",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MeiosTransporte",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MesSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Muar",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Municipio",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "MunicipioID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoDestinoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoDestinoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoDestinoUF",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoOrigemID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoOrigemNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "MunicipioTransitoOrigemUF",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Mês",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Datas"
+    ]
+  },
+  {
+    "qName": "NIRF",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Nome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Nome da Finalidade",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Nome do Grupo do Produto",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "NucleoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "NucleoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "NumeroCAR",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "NumeroINCRA",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "NumeroRegistro",
+    "qTags": [],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "Número do Documento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Averbação",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem CPF/CNPJ da Pessoa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Data Início do Evento",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Data Término do Evento",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Exportação para Rússia",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID Integradora do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID Região de Maior Risco",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID ZAV",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID da Pessoa Promotor do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID da Propriedade Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID da Região",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID de Acesso ao Mercado",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Colaborador do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Local do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Município",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$geoname",
+      "$key"
+    ],
+    "qSrcTables": [
+      "GTADTA",
+      "KML_Origem"
+    ]
+  },
+  {
+    "qName": "Origem ID do Município do Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Nome Pessoa Promotor Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Nome do Colaborador do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Produto Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ID do Tipo de Evento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem IE/CPF/CNPJ Integradora do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem IE/CPF/CNPJ da Propriedade Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem IE/CPF/CNPJ do Estabelecimento",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Propriedade",
+      "GTADTA",
+      "Nucleo",
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "Origem Lista Trace",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome da Integradora do Núcleo",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome da Pessoa",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome da Propriedade Núcleo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome da Região",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome de Acesso ao Mercado",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Estabelecimento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Local do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Município do Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Produto Núcleo",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Nome do Tipo de Evento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem Quantidade de Galpôes do Núcleo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem UF do Município",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem UF do Município do Evento",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem ZAV Nome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Origem_Nome_do_Município",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Ovino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Peixes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "PessoaEmitenteCPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "PessoaEmitenteNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "PessoaIDEmitente",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "ProdutoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "ProdutoNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ProdutorID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ProdutorNome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "PropriedadeID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioCPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioDDD",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioDataCadastro",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioDataUltimaAtualizacao",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioEmail",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioNome",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ProprietarioTelefone",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "QuantidadeGalpoes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ReponsavelTecnicoCPFCNPJ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ResponsavelTecnicoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ResponsavelTecnicoNome",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.DataSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.DiaSaldo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Entrada",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea0a12",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea0a12AtestadoBrucelose",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea0a12Nascidas6Meses",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea0a12VacBrucelose",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea13a24",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Femea25a36",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.FemeaAcima36",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.FichaSanitariaID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Macho0a12",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Macho13a24",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Macho25a36",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.MachoAcima36",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.OrigemDestinoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Produto",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.ProdutoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.Saida",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoAConfirmar",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoARetornar",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoBovideosID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoConfirmado",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoIdentificado",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoBovideos.SaldoTotal",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoBovideos"
+    ]
+  },
+  {
+    "qName": "SaldoGeralID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Situacao",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "SituacaoID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "SubTipoPropriedade",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "SubTipoPropriedadeID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Suino",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Série do Documento",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Telefone",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "TipoGTADescricao",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "TipoGTAID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "TipoLancamento",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "TipoLimiteZAV",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "TipoPropriedade",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "TipoPropriedadeID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "Total",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SaldoGeral"
+    ]
+  },
+  {
+    "qName": "Total de Animais",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Total de Animais Fêmeas",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Total de Animais Machos",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Total de Animais sem Sexo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "Trimestre",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Datas"
+    ]
+  },
+  {
+    "qName": "UnidadeIAGRO",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "UnidadeIAGROID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "UnidadeIAGRONome",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "GTADTA"
+    ]
+  },
+  {
+    "qName": "UsuarioAtivacao",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "UsuarioCancelamento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nucleo"
+    ]
+  },
+  {
+    "qName": "ViaAcesso",
+    "qTags": [],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  },
+  {
+    "qName": "ZAV",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Propriedade"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "f52ac056-66b2-4c34-aeb7-ce55039431f3",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vNome6",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "06 ou +06 Macho"
+}

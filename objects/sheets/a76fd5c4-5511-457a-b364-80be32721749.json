@@ -1,0 +1,58 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "a76fd5c4-5511-457a-b364-80be32721749",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "GTA Destino Fronteira",
+      "description": ""
+    },
+    "rank": 2,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/dc4c7b38-219a-4b22-992f-fe859bab4a8a/logo-iagro.png"
+      }
+    },
+    "columns": 30,
+    "rows": 15,
+    "cells": [
+      {
+        "name": "KrmMFnb",
+        "type": "pivot-table",
+        "col": 0,
+        "row": 0,
+        "colspan": 30,
+        "rowspan": 15,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 100,
+          "height": 100
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "medium",
+    "layoutOptions": {
+      "mobileLayout": "LIST"
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "KrmMFnb",
+          "qType": "pivot-table"
+        },
+        "qExtendsId": "515f5b5c-aeb4-48b5-8832-c6ca2ea4bb67",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    }
+  ]
+}
